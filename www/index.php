@@ -47,7 +47,6 @@
 
     mysqli_close($conn);
 
-    // PostgreSQL Connection
     $pgsql_conn = pg_connect("host=postgres dbname=myDb user=user password=test");
 
     if (!$pgsql_conn) {
